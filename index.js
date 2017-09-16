@@ -6,4 +6,5 @@ function theBeatlesPlay(musicians, instruments) {
       var a = "${musicians[i]} plays ${instruments[i]}"
       pair.push(a)
   }
+  return pair
 }
